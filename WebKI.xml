@@ -36,10 +36,12 @@
   <HelpKINode Title="BaseConfiguration.PhantomJsPath property" Url="html/f9462fa2-43fd-88b2-d557-d1310602f223.htm" />
   <HelpKINode Title="BaseConfiguration.Protocol property" Url="html/2a59eb82-246e-11a2-e857-95483f98d1f7.htm" />
   <HelpKINode Title="BaseConfiguration.Proxy property" Url="html/f50d335c-f673-3296-79c4-62b45c78ecc9.htm" />
+  <HelpKINode Title="BaseConfiguration.RemoteWebDriverHub property" Url="html/d8c0e0e3-fe56-c754-3448-1c36d8d28978.htm" />
   <HelpKINode Title="BaseConfiguration.ScreenShotFolder property" Url="html/122c7ee5-d318-9638-24a9-6b965f20a6d4.htm" />
   <HelpKINode Title="BaseConfiguration.SeleniumScreenShotEnabled property" Url="html/7ef5ad16-c228-b25c-d822-faeff6500045.htm" />
   <HelpKINode Title="BaseConfiguration.ShortTimeout property" Url="html/01202364-e1b5-63a7-9450-abe95b2a0e01.htm" />
   <HelpKINode Title="BaseConfiguration.TestBrowser property" Url="html/3b9b8dd0-2974-e198-b614-393af8dfe4e3.htm" />
+  <HelpKINode Title="BaseConfiguration.TestBrowserCapabilities property" Url="html/1cc503ab-e714-8ef2-42a1-ac2bfffa7c5b.htm" />
   <HelpKINode Title="BaseConfiguration.Url property" Url="html/0b048082-e0b6-9950-7cc0-2d133cf5ae9a.htm" />
   <HelpKINode Title="BaseConfiguration.UseCurrentDirectory property" Url="html/6132d977-8f07-63da-f593-3cced2619c83.htm" />
   <HelpKINode Title="BaseConfiguration.UseDefaultFirefoxProfile property" Url="html/2bf290b0-e753-6742-16b5-506bfc0bb792.htm" />
@@ -120,6 +122,7 @@
   <HelpKINode Title="DriverContext.SavePageSource method" Url="html/a1c34082-3c4e-bcf3-e405-9fcdd5d3250b.htm" />
   <HelpKINode Title="DriverContext.SaveScreenshot method" Url="html/a73b584f-d8ff-220d-0758-2f922e2dc9b7.htm" />
   <HelpKINode Title="DriverContext.ScreenShotFolder property" Url="html/8df8212d-a224-1fb0-b90c-38d35a91ab73.htm" />
+  <HelpKINode Title="DriverContext.SetCapabilities method" Url="html/967856ac-1aa7-7afc-1c8e-923d3b5092df.htm" />
   <HelpKINode Title="DriverContext.Start method" Url="html/87be11c3-810a-06ae-06b5-269dd1a211c1.htm" />
   <HelpKINode Title="DriverContext.Stop method" Url="html/baf4e39a-ef63-1b4c-d6c2-d43183df166b.htm" />
   <HelpKINode Title="DriverContext.TakeAndSaveScreenshot method" Url="html/42ec204a-8bdc-a717-020f-ba96f7af3cfe.htm" />
@@ -406,6 +409,8 @@
   <HelpKINode Title="Protocol property" Url="html/2a59eb82-246e-11a2-e857-95483f98d1f7.htm" />
   <HelpKINode Title="Proxy property" Url="html/f50d335c-f673-3296-79c4-62b45c78ecc9.htm" />
   <HelpKINode Title="RandomName method" Url="html/9e5bee3b-7676-3dac-020e-c9306827cd01.htm" />
+  <HelpKINode Title="RemoteWebDriver enumeration member" Url="html/fd8f95a4-1921-2ebe-a199-a6c1d3adcc8c.htm" />
+  <HelpKINode Title="RemoteWebDriverHub property" Url="html/d8c0e0e3-fe56-c754-3448-1c36d8d28978.htm" />
   <HelpKINode Title="RenameFile method" Url="html/94bf5e76-e0d2-4546-74ca-c07d11ce7cb8.htm" />
   <HelpKINode Title="ReturnFileExtension method" Url="html/49a9e6c5-5bfa-de7d-4d92-c19a09a41f5f.htm" />
   <HelpKINode Title="Safari enumeration member" Url="html/fd8f95a4-1921-2ebe-a199-a6c1d3adcc8c.htm" />
@@ -479,6 +484,7 @@
   <HelpKINode Title="SendTextToJavaScript method" Url="html/bab803cc-74f2-84ee-51ca-b850462082ab.htm" />
   <HelpKINode Title="Separator field" Url="html/95a21efc-9211-f841-9f61-dc0df8768279.htm" />
   <HelpKINode Title="SetAttribute method" Url="html/031dd2e4-b20e-5b8b-ed9f-6444bb32b218.htm" />
+  <HelpKINode Title="SetCapabilities method" Url="html/967856ac-1aa7-7afc-1c8e-923d3b5092df.htm" />
   <HelpKINode Title="SetDuration method" Url="html/3c83d32e-8959-e1ce-17a8-c5ad1877ff40.htm" />
   <HelpKINode Title="SetPage method" Url="html/3658f2fd-c4cd-87fc-ad45-f14123c3c77f.htm" />
   <HelpKINode Title="ShortenFileName method" Url="html/dea15dcd-5c00-dd48-0964-505c658f8972.htm" />
@@ -529,6 +535,7 @@
   <HelpKINode Title="TestBase.StopPerfromanceMeasure method" Url="html/91e74427-1e12-adb7-a530-b4a30c562846.htm" />
   <HelpKINode Title="TestBase.TestBase constructor" Url="html/98e2911e-35e2-035f-2e9a-9f192832872f.htm" />
   <HelpKINode Title="TestBrowser property" Url="html/3b9b8dd0-2974-e198-b614-393af8dfe4e3.htm" />
+  <HelpKINode Title="TestBrowserCapabilities property" Url="html/1cc503ab-e714-8ef2-42a1-ac2bfffa7c5b.htm" />
   <HelpKINode Title="TestLogger class">
     <HelpKINode Title="TestLogger Class" Url="html/a7b4a4a7-a74e-55d3-7a40-3418d3f03491.htm" />
     <HelpKINode Title="about TestLogger class" Url="html/a7b4a4a7-a74e-55d3-7a40-3418d3f03491.htm" />
